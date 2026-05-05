@@ -33,7 +33,7 @@ groups, and predicting churn using a Random Forest classifier.
 ## Files
 | File | Description |
 |---|---|
-| `RFM_Churn_Analysis.ipynb` | Full Jupyter notebook |
+| `RFM_ChurnAnalysis_Project.ipynb` | Full Jupyter notebook |
 | `rfm_segments.csv` | Processed RFM output data |
 
 ## How to Run
