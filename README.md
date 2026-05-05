@@ -39,7 +39,6 @@ groups, and predicting churn using a Random Forest classifier.
 ## How to Run
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn
-python rfm_churn_analysis.py
 ```
 
 ## Key Concepts Demonstrated
@@ -47,3 +46,21 @@ python rfm_churn_analysis.py
 - Churn prediction modelling
 - Marketing KPIs: LTV, CAC, churn rate, retention strategy
 - Stakeholder-ready data visualisation
+
+## Summary & Business Recommendations
+
+| Segment | Priority Action | Channel |
+|---|---|---|
+| **Champions** | Loyalty reward + referral programme | Email / App push |
+| **Loyal Customers** | Cross-sell & exclusive previews | Email |
+| **At Risk** | Personalised win-back offer + urgency | Email + SMS |
+| **Hibernating** | "We miss you" reactivation | Email |
+| **New Customers** | Onboarding journey | Email / In-app |
+| **Lost** | Low-cost reactivation only | Email (batch) |
+
+### Model Performance
+- **AUC score** measures how well the model separates churners from active customers (1.0 = perfect, 0.5 = random)
+- **Recency** is typically the strongest predictor — customers who haven't purchased recently are most likely to churn
+- **RFM Score** combines all three signals into a single health score per customer
+
+
